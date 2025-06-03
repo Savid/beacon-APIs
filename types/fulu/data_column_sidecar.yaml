@@ -4,7 +4,7 @@ Fulu:
     items:
       $ref: '#/Fulu/DataColumnSidecar'
     minItems: 0
-    maxItems: 6
+    maxItems: 128
 
   KZGCommitmentsInclusionProof:
     type: array
@@ -25,19 +25,19 @@ Fulu:
         items:
           $ref: "../primitive.yaml#/Cell"
         minItems: 0
-        maxItems: 33554432
+        maxItems: 4096
       kzg_commitments:
         type: array
         items:
           $ref: '../primitive.yaml#/KZGCommitment'
         minItems: 0
-        maxItems: 33554432
+        maxItems: 4096
       kzg_proofs:
         type: array
         items:
           $ref: '../primitive.yaml#/KZGProof'
         minItems: 0
-        maxItems: 33554432
+        maxItems: 4096
       signed_block_header:
         $ref: "../phase0/block.yaml#/Phase0/SignedBeaconBlockHeader"
       kzg_commitments_inclusion_proof:
