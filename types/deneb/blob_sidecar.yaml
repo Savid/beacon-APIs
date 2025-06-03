@@ -30,4 +30,3 @@ Deneb:
         $ref: "../phase0/block.yaml#/Phase0/SignedBeaconBlockHeader"
       kzg_commitment_inclusion_proof:
         $ref: '#/Deneb/KZGCommitmentInclusionProof'
-
