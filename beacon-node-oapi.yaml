@@ -442,6 +442,8 @@ components:
       $ref: "./types/fulu/block_contents.yaml#/Fulu/BlockContents"
     Fulu.SignedBlockContents:
       $ref: "./types/fulu/block_contents.yaml#/Fulu/SignedBlockContents"
+    Fulu.DataColumnSidecars:
+      $ref: "./types/fulu/data_column_sidecar.yaml#/Fulu/DataColumnSidecars"
     Node:
       $ref: './types/fork_choice.yaml#/Node'
     ExtraData:
